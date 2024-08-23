@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=2.0, initial-scale=1.0">
+    <title>flag</title>
+    <style>
+        body {
+            /* Grey Background so that white stripe doesn't bleed into background  */
+            background: #ccc;
+          }
+          
+          .container {
+          /* Make Flag at the center of the container  */
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+          }
+          /* Stripe  */
+          .stripe {
+            width: 225px;
+            height: 50px;
+          }
+          /* Saffron Stripe  */
+          #saffron {
+            background: #FF9933;
+          }
+          /* White Stripe */
+          #white {
+            background: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          /* Green Stripe  */
+          #green {
+            background: #138808;
+          }
+          /* Ashoka Chakra Image */
+          .ashok_chakra {
+            height: 40px;
+            width: 40px;
+          }
+          /* Patriotic Message */
+          .message {
+            text-align: center;
+          }
+          /* Color of INDIA */
+          .message span{
+            /* Navy Blue of Ashoka Chakra */
+            color: #000080;
+          }
+    </style>
+</head>
+<body>
+    <!-- Wrapper -->
+<div class="container">
+    <!-- Flag -->
+      <div id="flag">
+        <!-- Saffron Stripe -->
+        <div class="stripe" id="saffron"></div>
+        <!-- White Stripe -->
+        <div class="stripe" id="white">
+          <img class="ashok_chakra" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/630px-Ashoka_Chakra.svg.png" alt="Ashoka Chakra">
+        </div>
+        <!-- Green Stripe -->
+        <div class="stripe" id="green"></div>
+      </div>
+    </div>
+    <!-- Message -->
+    <h3 class="message">I ❤️ My <span>INDIA<span></h3>
+    
+</body>
+</html>
